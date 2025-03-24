@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address">
+        <span class="error" id="emailError"></span>
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="error" id="passwordError"></span>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Enter your confirm password">
+        <span class="error" id="confirmPasswordError"></span>
+
+        <button onclick="register()">Register</button>
+    </div>
+
+    <script src="./main1.js"></script>
+
+</body>
+
+</html>
